@@ -14,7 +14,8 @@ import { BatchHttpLink } from "apollo-link-batch-http";
 
 const uri = "https://pet-library.moonhighway.com/graphql";
 
-const batchHttpLink = new BatchHttpLink({ uri });
+// const batchHttpLink = new BatchHttpLink({ uri, batchInterval: 50, batchMax: 50 });
+// batchInterval and batchMax defaults are 10ms
 const httpLink = createHttpLink({ uri });
 
 const client = new ApolloClient({
