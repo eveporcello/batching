@@ -11,4 +11,4 @@ npm i
 npm start
 ```
 
-You'll find the server running on `localhost:4000`.
+You'll find the project running on `localhost:3000`.
